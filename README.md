@@ -26,7 +26,7 @@ Best Team
 
 ## Hedef Kitle
 
-- 
+- Oyun severler
 
 ## Product Backlog URL
 
