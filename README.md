@@ -1,12 +1,16 @@
 # **Takım İsmi**
 
-Takım X
+Best Team
 
 # Ürün İle İlgili Bilgiler
 
 ## Takım Elemanları
 
-- 
+- Mustafa Aziz Sevimli: Product Owner
+- Zehra Sena Noğay: Scrum Master
+- Doğa Ceryan: Game Artist
+- Oğuzhan Yıldız: Developer
+- Güney Berkay Ateş: Developer
 
 ## Ürün İsmi
 
