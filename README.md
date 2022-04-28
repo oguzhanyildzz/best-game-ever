@@ -47,6 +47,8 @@ Best Team
 - **Daily Scrum**: Daily Scrum toplantılarının Discord üzerinden yapılmasına karar verilmiştir. Üyelerin uygunluk durumuna göre toplantılar birkaç günde bir sesli olarak yapılmakta, onun dışında yazılı olarak iletişim kurulmaktadır.
 
 - **Sprint board update**: Sprint board screenshotları: 
+![sprint1görsel1](https://user-images.githubusercontent.com/53306980/165743432-ec189ccd-fa6b-4e0b-bcf0-df7d917acb34.png)
+
 
 
 - **Ürün Durumu**: Ekran görüntüleri:
