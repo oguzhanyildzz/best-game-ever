@@ -59,6 +59,7 @@ Alınan kararlar:
 Sprint Review katılımcıları: 
 
 - **Sprint Retrospective:**
+  - hehehhehe
   - 
 
 -**Diğer Notlar**:
