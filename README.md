@@ -18,15 +18,20 @@ Best Team
 
 ## Ürün Açıklaması
 
-- 
+- Oyunumuz her yaştan oyuncuya hitap eden pixel art bir oyun olup oyun severleri aksiyon ve maceraya sürükleyecek bir oyundur.
 
 ## Ürün Özellikleri
 
-- 
+- Heyecanlı bir serüven
+- Pixel art grafikler
+- 2D
 
 ## Hedef Kitle
 
-- Oyun severler
+- Pixel art oyun meraklıları
+- Aksiyon & macera oyunu meraklıları
+- Her yaştan oyuncular
+- Ve diğer bütün oyun severler
 
 ## Product Backlog URL
 
