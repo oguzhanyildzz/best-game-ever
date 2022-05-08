@@ -53,7 +53,6 @@ Best Team
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![sprint1görsel1](https://user-images.githubusercontent.com/53306980/165743432-ec189ccd-fa6b-4e0b-bcf0-df7d917acb34.png)
-![sprint1görsel2](https://user-images.githubusercontent.com/53306980/167315380-f9a791f3-be0c-44dd-a425-8699a209e946.png)
 
 
 
