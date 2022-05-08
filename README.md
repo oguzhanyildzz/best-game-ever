@@ -41,7 +41,7 @@ Best Team
 
 # Sprint 1
 
-- **Sprint Notları**: 
+- **Sprint Notları**: Kanban panosu oluşturuldu. Görev atamaları yapıldı. Görev kartlarına ulaşıldığında gerken bilgilere yer verildi.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 
 
@@ -53,10 +53,6 @@ Best Team
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![sprint1görsel1](https://user-images.githubusercontent.com/53306980/165743432-ec189ccd-fa6b-4e0b-bcf0-df7d917acb34.png)
-![sprint1görsel2](https://user-images.githubusercontent.com/53306980/167315446-5110755a-bf6e-493e-a7f3-b3d0dc52c0ac.png)
-
-
-
 
 
 
@@ -64,11 +60,13 @@ Best Team
   
 
 - **Sprint Review**: 
-Alınan kararlar: 
-Sprint Review katılımcıları: 
+Alınan kararlar: Oyun genel hatlarıyla konuşuldu. Oyun hikayesi tamamlandı. Seviye tasarımları hakkında karara varıldı. Seviye 1 gidişatı belirlendi. Tasarlanacak karakter için taslak oluşturuldu. 
+Sprint Review katılımcıları: Zehra Sena Noğay, Doğa Ceryan, Güney Berkay Ateş, Oğuzhan Yıldız, Mustafa Aziz Sevimli
 
 - **Sprint Retrospective:**
-  - 
+  - Sürenin daralmasından dolayı daha yoğun tempo ile çalışma yapılacak
+  - Üyelerin sınav tarihlerine göre program yeniden düzenlenecek
+  - Sprint puanları düzenlenecek
 
 -**Diğer Notlar**:
 - 
