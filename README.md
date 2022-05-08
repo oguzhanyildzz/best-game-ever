@@ -58,7 +58,11 @@ Best Team
 
 
 
-- **Ürün Durumu**: Ekran görüntüleri:
+- **Ürün Durumu**: Ekran görüntüleri: 
+![2022-05-09_1](https://user-images.githubusercontent.com/99272722/167316099-75ff2531-2a31-40ea-972d-5121c92e4794.png)
+![2022-05-09_3](https://user-images.githubusercontent.com/99272722/167316101-c589e606-8b8b-46dc-8e83-c8e2267905d2.png)
+
+
   
 
 - **Sprint Review**: 
