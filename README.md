@@ -69,7 +69,8 @@ Sprint Review katılımcıları: Zehra Sena Noğay, Doğa Ceryan, Güney Berkay 
   - Sprint puanları düzenlenecek
 
 -**Diğer Notlar**:
-- 
+![bestteam 1](https://user-images.githubusercontent.com/99272722/167315856-987e77a6-45d2-4fff-9204-b34388290148.png)
+![bestteam 2](https://user-images.githubusercontent.com/99272722/167315860-4b83957a-19a5-4c9f-965b-707aae884d88.png)
 
 ---
 
