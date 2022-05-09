@@ -51,7 +51,14 @@ Best Team
   
    Trello' görünen yeşil etiketli storyler sprint 1'e, turkuaz etiketli storyler sprint 2'ye, lacivert etiketli storyler sprint 3'e aittir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının Discord üzerinden yapılmasına karar verilmiştir. Üyelerin uygunluk durumuna göre toplantılar birkaç günde bir sesli olarak yapılmakta, onun dışında yazılı olarak iletişim kurulmaktadır.
+- **Daily Scrum**: Daily Scrum toplantılarının Discord üzerinden yapılmasına karar verilmiştir. Üyelerin uygunluk durumuna göre toplantılar birkaç günde bir sesli olarak yapılmakta, onun dışında yazılı olarak iletişim kurulmaktadır. Yazılı Daily Scrum ekran görüntüleri:
+
+![dailyscrum1](https://user-images.githubusercontent.com/53306980/167474433-e0b53048-cfad-46f0-9f04-5b762d6fa6ab.png)
+![dailyscrum2](https://user-images.githubusercontent.com/53306980/167474437-89a1f0c2-5f8c-4f0a-bd82-5625449da64b.png)
+![dailyscrum3](https://user-images.githubusercontent.com/53306980/167474438-b96762cd-77dc-445e-8967-cd044bf8b98b.png)
+![bestteam 1](https://user-images.githubusercontent.com/99272722/167315856-987e77a6-45d2-4fff-9204-b34388290148.png)
+![bestteam 2](https://user-images.githubusercontent.com/99272722/167315860-4b83957a-19a5-4c9f-965b-707aae884d88.png)
+
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![trello](https://user-images.githubusercontent.com/99272722/167332657-9ffe15c1-0295-4acc-8edc-4a3b96157f1d.png)
@@ -79,8 +86,7 @@ Best Team
   - Toplantılar için uygun vakitler ayarlanacak
 
 -**Diğer Notlar**:
-![bestteam 1](https://user-images.githubusercontent.com/99272722/167315856-987e77a6-45d2-4fff-9204-b34388290148.png)
-![bestteam 2](https://user-images.githubusercontent.com/99272722/167315860-4b83957a-19a5-4c9f-965b-707aae884d88.png)
+
 
 ---
 
