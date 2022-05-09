@@ -57,7 +57,6 @@ Best Team
 ![dailyscrum2](https://user-images.githubusercontent.com/53306980/167474437-89a1f0c2-5f8c-4f0a-bd82-5625449da64b.png)
 ![dailyscrum3](https://user-images.githubusercontent.com/53306980/167474438-b96762cd-77dc-445e-8967-cd044bf8b98b.png)
 ![bestteam 1](https://user-images.githubusercontent.com/99272722/167315856-987e77a6-45d2-4fff-9204-b34388290148.png)
-![bestteam 2](https://user-images.githubusercontent.com/99272722/167315860-4b83957a-19a5-4c9f-965b-707aae884d88.png)
 
 
 - **Sprint board update**: Sprint board screenshotları: 
