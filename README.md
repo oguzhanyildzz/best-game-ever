@@ -97,6 +97,12 @@ Best Team
 
 
 - **Daily Scrum**: Daily Scrum'lar çoğunlukla WhatsApp ve Discord üzerinden yazışarak yapıldı. Ekran görüntüleri:
+![daily1](https://user-images.githubusercontent.com/53306980/169718631-cd44d800-aae3-4bb9-b267-60e1f6939b70.png)
+![daily2](https://user-images.githubusercontent.com/53306980/169718635-54992282-f855-4f19-ace1-1cdd87dc13e4.png)
+![daily3](https://user-images.githubusercontent.com/53306980/169718636-e81229f2-4c9b-4431-a686-e86f2c6cd120.jpg)
+![daily4](https://user-images.githubusercontent.com/53306980/169718637-fb259ef5-1997-4759-884c-1bc71bbd3853.jpg)
+![daily5](https://user-images.githubusercontent.com/53306980/169718638-93fb56d5-f470-43cd-833d-8df370f4d954.jpg)
+![daily6](https://user-images.githubusercontent.com/53306980/169718639-dc4d3b4a-3bed-4a22-9a3f-7fb80ea5bfda.jpg)
 
 
 - **Sprint board update**: Sprint board screenshotları:
