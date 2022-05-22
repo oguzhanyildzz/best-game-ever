@@ -106,9 +106,14 @@ Best Team
 
 
 - **Sprint board update**: Sprint board screenshotları:
+![trello_ss](https://user-images.githubusercontent.com/53306980/169719162-b9581c28-8f75-4775-a4fe-669bb9169242.png)
+
 
 
 - **Ürün Durumu**: Ekran görüntüleri: 
+![urun1](https://user-images.githubusercontent.com/53306980/169719157-9af88789-65a1-48e9-88c7-f2ec9566cc20.png)
+![urun2](https://user-images.githubusercontent.com/53306980/169719158-b6ca23b0-64b4-468b-9f44-fca4350916f5.png)
+![urun3](https://user-images.githubusercontent.com/53306980/169719161-b6ff1398-dbfd-472e-a18d-83351944e708.png)
 
 
 - **Sprint Review**: Karakterin tasarımı tekrar oluşturulmaya karar verildi ve yeni animasyonların oluşturulmasına
