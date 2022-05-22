@@ -102,6 +102,7 @@ Best Team
 ![daily4](https://user-images.githubusercontent.com/53306980/169718890-89433305-1b59-4a7c-81b9-b3518a93afa8.jpg)
 ![daily5](https://user-images.githubusercontent.com/53306980/169718891-21499aa7-cde5-4b27-adc6-db7752512bb3.jpg)
 ![daily6](https://user-images.githubusercontent.com/53306980/169718892-f7b6bf63-261b-46e2-bbe7-30090cabbee3.jpg)
+![daily7](https://user-images.githubusercontent.com/53306980/169719299-5c52fdef-27a9-46c5-8829-1f339e1d477c.png)
 
 
 
