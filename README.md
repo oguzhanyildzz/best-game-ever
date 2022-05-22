@@ -93,7 +93,7 @@ Best Team
 
 - **Sprint Notları**: Karakterin bazı hareket animasyonları oluşturuldu. Arkaplan tasarımı yapıldı. Oyun içi karakterin hareket kodları yazıldı. Oyunun gelecek senaryosuna dair toplantılar yapıldı ve kararlar alındı.
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 
+- **Sprint içinde tamamlanması tahmin edilen puan**: 34
 
 
 - **Daily Scrum**: Daily Scrum'lar çoğunlukla WhatsApp ve Discord üzerinden yazışarak yapıldı. Ekran görüntüleri:
@@ -123,9 +123,9 @@ başlandı. Oyun başlangıcı belirlendi ve gidişatı oluşturuldu.
   
 
 - **Sprint Retrospective:** 
-  -Daha çok toplantı yapılacak.
-  -Üyeler proje için daha fazla zaman ayıracak.
-  -Yeni teknolojiler araştırılacak.
+  - Daha çok toplantı yapılacak.
+  - Üyeler proje için daha fazla zaman ayıracak.
+  - Yeni teknolojiler araştırılacak.
 
 
 
