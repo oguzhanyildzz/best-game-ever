@@ -97,12 +97,12 @@ Best Team
 
 
 - **Daily Scrum**: Daily Scrum'lar çoğunlukla WhatsApp ve Discord üzerinden yazışarak yapıldı. Ekran görüntüleri:
-![daily1](https://user-images.githubusercontent.com/53306980/169718631-cd44d800-aae3-4bb9-b267-60e1f6939b70.png)
-![daily2](https://user-images.githubusercontent.com/53306980/169718635-54992282-f855-4f19-ace1-1cdd87dc13e4.png)
-![daily3](https://user-images.githubusercontent.com/53306980/169718636-e81229f2-4c9b-4431-a686-e86f2c6cd120.jpg)
-![daily4](https://user-images.githubusercontent.com/53306980/169718637-fb259ef5-1997-4759-884c-1bc71bbd3853.jpg)
-![daily5](https://user-images.githubusercontent.com/53306980/169718638-93fb56d5-f470-43cd-833d-8df370f4d954.jpg)
-![daily6](https://user-images.githubusercontent.com/53306980/169718639-dc4d3b4a-3bed-4a22-9a3f-7fb80ea5bfda.jpg)
+![daily2](https://user-images.githubusercontent.com/53306980/169718887-5ace5de9-8ee3-4782-a2c4-4b49ab170a80.png)
+![daily3](https://user-images.githubusercontent.com/53306980/169718888-58ccfc37-03c1-478a-a873-c8bf11fb8127.jpg)
+![daily4](https://user-images.githubusercontent.com/53306980/169718890-89433305-1b59-4a7c-81b9-b3518a93afa8.jpg)
+![daily5](https://user-images.githubusercontent.com/53306980/169718891-21499aa7-cde5-4b27-adc6-db7752512bb3.jpg)
+![daily6](https://user-images.githubusercontent.com/53306980/169718892-f7b6bf63-261b-46e2-bbe7-30090cabbee3.jpg)
+
 
 
 - **Sprint board update**: Sprint board screenshotları:
