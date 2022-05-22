@@ -84,12 +84,38 @@ Best Team
   - Üyelerin sınav tarihlerine göre program yeniden düzenlenecek
   - Toplantılar için uygun vakitler ayarlanacak
 
--**Diğer Notlar**:
+
 
 
 ---
 
 # Sprint 2
+
+- **Sprint Notları**: Karakterin bazı hareket animasyonları oluşturuldu. Arkaplan tasarımı yapıldı. Oyun içi karakterin hareket kodları yazıldı. Oyunun gelecek senaryosuna dair toplantılar yapıldı ve kararlar alındı.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 
+
+
+- **Daily Scrum**: Daily Scrum'lar çoğunlukla WhatsApp ve Discord üzerinden yazışarak yapıldı. Ekran görüntüleri:
+
+
+- **Sprint board update**: Sprint board screenshotları:
+
+
+- **Ürün Durumu**: Ekran görüntüleri: 
+
+
+- **Sprint Review**: Karakterin tasarımı tekrar oluşturulmaya karar verildi ve yeni animasyonların oluşturulmasına
+başlandı. Oyun başlangıcı belirlendi ve gidişatı oluşturuldu.
+
+  Sprint Review katılımcıları: Doğa Ceryan, Güney Berkay Ateş, Oğuzhan Yıldız, Mustafa Aziz Sevimli, Zehra Sena Noğay
+  
+
+- **Sprint Retrospective:** 
+  -Daha çok toplantı yapılacak.
+  -Üyeler proje için daha fazla zaman ayıracak.
+  -Yeni teknolojiler araştırılacak.
+
 
 
 ---
