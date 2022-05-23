@@ -128,6 +128,10 @@ başlandı. Oyun başlangıcı belirlendi ve gidişatı oluşturuldu.
   - Üyeler proje için daha fazla zaman ayıracak.
   - Yeni teknolojiler araştırılacak.
 
+- **Trello URL:** [Trello Kanban Board](https://trello.com/b/PMQp8MDJ/kanban-panosu)
+  
+  Turkuaz etiketli storyler sprint 2'ye aittir.
+
 
 
 ---
