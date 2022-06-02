@@ -310,7 +310,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runSpeed: 10
 <<<<<<< HEAD
-<<<<<<< HEAD
   jumpSpeed: 5
 --- !u!1 &360149633
 GameObject:
@@ -378,8 +377,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> parent of 283f7f8 (added scripts)
 =======
 >>>>>>> parent of 283f7f8 (added scripts)
 --- !u!1 &571455873
@@ -574,7 +571,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &819250840
 GameObject:
@@ -997,7 +993,5 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> parent of 283f7f8 (added scripts)
 =======
 >>>>>>> parent of 283f7f8 (added scripts)
