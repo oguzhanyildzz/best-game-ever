@@ -140,4 +140,14 @@ başlandı. Oyun başlangıcı belirlendi ve gidişatı oluşturuldu.
 
 # Sprint 3
 
+- **Sprint Notları**: Karakterin kalan hareket animasyonları oluşturuldu. Menü ve başlangıç ekranları oluşturuldu. Düşmanlar eklendi, dövüş mekanikleri eklendi. Levellar oluşturuldu. Müzik eklendi. Oyun son haline getirildi.
+
+- **Daily Scrum**: Daily Scrum'lar çoğunlukla WhatsApp ve Discord üzerinden yazışarak yapıldı. Ekran görüntüleri:
+
+- **Sprint board update**: Sprint board screenshotları:
+
+- **Ürün Durumu**: Ekran görüntüleri:
+
+- **Sprint Review**: Bu sprint sonunda istediğimiz her şeyi yapamamış olsak da elimizdeki kısıtlı zamanda bir oyun ortaya koyduk.
+
 ---
