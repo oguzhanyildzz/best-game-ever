@@ -14,6 +14,8 @@ Best Team
 
 ## Ürün İsmi
 
+Revenge Of The Sword
+
 ----
 
 ## Ürün Açıklaması
@@ -92,8 +94,68 @@ Best Team
 # Sprint 2
 
 
+- **Sprint Notları**: Karakterin bazı hareket animasyonları oluşturuldu. Arkaplan tasarımı yapıldı. Oyun içi karakterin hareket kodları yazıldı. Oyunun gelecek senaryosuna dair toplantılar yapıldı ve kararlar alındı.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 57
+
+
+- **Daily Scrum**: Daily Scrum'lar çoğunlukla WhatsApp ve Discord üzerinden yazışarak yapıldı. Ekran görüntüleri:
+![daily2](https://user-images.githubusercontent.com/53306980/169718887-5ace5de9-8ee3-4782-a2c4-4b49ab170a80.png)
+![daily3](https://user-images.githubusercontent.com/53306980/169718888-58ccfc37-03c1-478a-a873-c8bf11fb8127.jpg)
+![daily4](https://user-images.githubusercontent.com/53306980/169718890-89433305-1b59-4a7c-81b9-b3518a93afa8.jpg)
+![daily5](https://user-images.githubusercontent.com/53306980/169718891-21499aa7-cde5-4b27-adc6-db7752512bb3.jpg)
+![daily6](https://user-images.githubusercontent.com/53306980/169718892-f7b6bf63-261b-46e2-bbe7-30090cabbee3.jpg)
+![daily7](https://user-images.githubusercontent.com/53306980/169719299-5c52fdef-27a9-46c5-8829-1f339e1d477c.png)
+
+
+
+- **Sprint board update**: Sprint board screenshotları:
+![trello_ss](https://user-images.githubusercontent.com/53306980/169719162-b9581c28-8f75-4775-a4fe-669bb9169242.png)
+
+
+
+- **Ürün Durumu**: Ekran görüntüleri: 
+![urun1](https://user-images.githubusercontent.com/53306980/169719157-9af88789-65a1-48e9-88c7-f2ec9566cc20.png)
+![urun2](https://user-images.githubusercontent.com/53306980/169719158-b6ca23b0-64b4-468b-9f44-fca4350916f5.png)
+![urun3](https://user-images.githubusercontent.com/53306980/169719161-b6ff1398-dbfd-472e-a18d-83351944e708.png)
+
+
+- **Sprint Review**: Karakterin tasarımı tekrar oluşturulmaya karar verildi ve yeni animasyonların oluşturulmasına
+başlandı. Oyun başlangıcı belirlendi ve gidişatı oluşturuldu.
+
+  Sprint Review katılımcıları: Doğa Ceryan, Güney Berkay Ateş, Oğuzhan Yıldız, Mustafa Aziz Sevimli, Zehra Sena Noğay
+
+
+- **Sprint Retrospective:** 
+  - Daha çok toplantı yapılacak.
+  - Üyeler proje için daha fazla zaman ayıracak.
+  - Yeni teknolojiler araştırılacak.
+
+- **Trello URL:** [Trello Kanban Board](https://trello.com/b/PMQp8MDJ/kanban-panosu)
+
+  Turkuaz etiketli storyler sprint 2'ye aittir.
+
+
+
+
 ---
 
 # Sprint 3
+
+- **Sprint Notları**: Karakterin kalan hareket animasyonları oluşturuldu. Menü ve başlangıç ekranları oluşturuldu. Düşmanlar eklendi, dövüş mekanikleri eklendi. Levellar oluşturuldu. Müzik eklendi. Oyun son haline getirildi.
+
+- **Daily Scrum**: Daily Scrum'lar çoğunlukla WhatsApp ve Discord üzerinden yazışarak yapıldı. Ekran görüntüleri:
+![daily4](https://user-images.githubusercontent.com/53306980/172072806-33e12537-4d40-48da-bd5e-9c314fdeaa2b.png)
+![daily5](https://user-images.githubusercontent.com/53306980/172072807-9ea9619d-604c-4c54-a073-9a0e1980e06a.png)
+![daily1](https://user-images.githubusercontent.com/53306980/172072809-3096d4ad-60fc-4aa5-bf74-3b57447dc813.png)
+![daily2](https://user-images.githubusercontent.com/53306980/172072811-7260415a-fbe0-443a-a902-386dd2cda79d.png)
+![daily3](https://user-images.githubusercontent.com/53306980/172072812-b34620b0-48ea-4ebf-bcbd-3a716354cf9c.png)
+
+- **Sprint board update**: Sprint board screenshotları:
+![kanbanpano](https://user-images.githubusercontent.com/53306980/172072808-4644ff15-ff63-4606-ac98-068f2ffc009c.png)
+
+- **Ürün Durumu**: Ekran görüntüleri:
+
+- **Sprint Review**: Bu sprint sonunda istediğimiz her şeyi yapamamış olsak da elimizdeki kısıtlı zamanda bir oyun ortaya koyduk.
 
 ---
