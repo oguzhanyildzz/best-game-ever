@@ -143,8 +143,14 @@ başlandı. Oyun başlangıcı belirlendi ve gidişatı oluşturuldu.
 - **Sprint Notları**: Karakterin kalan hareket animasyonları oluşturuldu. Menü ve başlangıç ekranları oluşturuldu. Düşmanlar eklendi, dövüş mekanikleri eklendi. Levellar oluşturuldu. Müzik eklendi. Oyun son haline getirildi.
 
 - **Daily Scrum**: Daily Scrum'lar çoğunlukla WhatsApp ve Discord üzerinden yazışarak yapıldı. Ekran görüntüleri:
+![daily4](https://user-images.githubusercontent.com/53306980/172072806-33e12537-4d40-48da-bd5e-9c314fdeaa2b.png)
+![daily5](https://user-images.githubusercontent.com/53306980/172072807-9ea9619d-604c-4c54-a073-9a0e1980e06a.png)
+![daily1](https://user-images.githubusercontent.com/53306980/172072809-3096d4ad-60fc-4aa5-bf74-3b57447dc813.png)
+![daily2](https://user-images.githubusercontent.com/53306980/172072811-7260415a-fbe0-443a-a902-386dd2cda79d.png)
+![daily3](https://user-images.githubusercontent.com/53306980/172072812-b34620b0-48ea-4ebf-bcbd-3a716354cf9c.png)
 
 - **Sprint board update**: Sprint board screenshotları:
+![kanbanpano](https://user-images.githubusercontent.com/53306980/172072808-4644ff15-ff63-4606-ac98-068f2ffc009c.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
 
