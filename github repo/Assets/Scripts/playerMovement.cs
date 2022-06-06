@@ -8,6 +8,7 @@ public class playerMovement : MonoBehaviour
 {
     [SerializeField] float runSpeed = 10f;
     [SerializeField] float jumpSpeed = 10f;
+    float runSpeedCopy;
 
     Vector2 moveInput;//karakterin hareketi hakkýnda alýk bilgi
     Rigidbody2D rb2d;
@@ -19,17 +20,26 @@ public class playerMovement : MonoBehaviour
     public float checkRadius;
     public LayerMask whatIsGround;
 
+    private bool attacked;
+
+    public Transform attackPoint;
+    public int attackDamage = 20;
+    public float attackRange = 0.5f;
+    public LayerMask enemyLayers;
+
     // Start is called before the first frame update
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
         myCapsuleCollider = GetComponent<CapsuleCollider2D>();
+        runSpeedCopy = runSpeed;
+        
     }
 
     // Update is called once per frame
     void Update()
-    {
+    {    
         Run();
         FlipSprite();//karakter hareket ederken bakýþ yönünü ayarlama
 
@@ -42,19 +52,48 @@ public class playerMovement : MonoBehaviour
         }
         else
         {
-            myAnimator.SetBool("isJumping", true);
-            myAnimator.SetBool("isSpecial", false);
+            myAnimator.SetBool("isJumping", true);       
         }
     }
 
     void OnFire(InputValue value)//saldýr
     {
-        Attack();
+        if (attacked == false)
+        {
+            Attack();
+            
+        }   
     }
 
     void Attack()
-    {
+    {  
         myAnimator.SetTrigger("Attack");
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            enemy.GetComponent<enemy>().TakeDamage(attackDamage);
+        }
+
+        attacked = true;
+        runSpeed = 0;
+        StartCoroutine(changeAttackedState());
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null)
+        
+            return;
+        
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+
+    public IEnumerator changeAttackedState()//ard arda saldýrý yapmayý engelleme
+    {
+        yield return new WaitForSeconds(0.5f);//þu kadar saniye sonra bunlarý yap
+        attacked = false;
+        runSpeed = runSpeedCopy;
     }
 
     void OnMove(InputValue value)
@@ -81,7 +120,7 @@ public class playerMovement : MonoBehaviour
     {
         if (value.isPressed)
         {
-            myAnimator.SetBool("isSpecial", true);
+            myAnimator.SetTrigger("Special");
         }
     }
 
@@ -103,6 +142,12 @@ public class playerMovement : MonoBehaviour
             transform.localScale = new Vector2(Mathf.Sign(rb2d.velocity.x), 1f);
         }
     }
+
+    public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        animator.transform.parent.gameObject.transform.position = animator.transform.position;
+    }
+
 
 
 
