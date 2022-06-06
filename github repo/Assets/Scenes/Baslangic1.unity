@@ -380,7 +380,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &471138469
 RectTransform:
   m_ObjectHideFlags: 0
@@ -420,8 +420,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'On a dark night, far from the town, in an isolated part of the forest,
-    shadowy silhouettes appear... '
+  m_text: He takes advantage of the opportunity he finds and starts to flee towards
+    the forest...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5551570dc1d91d84f9d0bce281f6658b, type: 2}
   m_sharedMaterial: {fileID: 3627722207265876835, guid: 5551570dc1d91d84f9d0bce281f6658b, type: 2}
@@ -800,7 +800,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &703322502
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1259,8 +1259,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'On a dark night, far from the town, in an isolated part of the forest,
-    shadowy silhouettes appear... '
+  m_text: Necmi and his men look at the explosion in the town in surprise...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5551570dc1d91d84f9d0bce281f6658b, type: 2}
   m_sharedMaterial: {fileID: 3627722207265876835, guid: 5551570dc1d91d84f9d0bce281f6658b, type: 2}
