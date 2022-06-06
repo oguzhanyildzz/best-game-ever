@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: 865d8bb123505f24ba206889e474be55
   - enabled: 1
+    path: Assets/Scenes/Baslangic1.unity
+    guid: 92edd7d4918759942a6a6bb88282fafb
+  - enabled: 1
     path: Assets/Scenes/testSahne1.unity
     guid: a4578c98406f82a4cbb8a083ec8427bf
   m_configObjects:
