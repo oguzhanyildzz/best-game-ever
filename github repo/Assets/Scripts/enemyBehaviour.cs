@@ -25,6 +25,7 @@ public class enemyBehaviour : MonoBehaviour
 
     private void Awake()
     {
+        SelectTarget();
         intTimer = timer;
         anim = GetComponent<Animator>();
     }
@@ -59,7 +60,6 @@ public class enemyBehaviour : MonoBehaviour
 
         if (inRange == false)
         {
-            anim.SetBool("canWalk", false);
             StopAttack();
         }
     }
@@ -70,6 +70,7 @@ public class enemyBehaviour : MonoBehaviour
         {
             target = trig.transform;
             inRange = true;
+            Flip();
         }
         
     }
@@ -97,6 +98,7 @@ public class enemyBehaviour : MonoBehaviour
     void Move()
     {
         anim.SetBool("canWalk", true);
+
         if (!anim.GetCurrentAnimatorStateInfo(0).IsName("isAttack"))
         {
             Vector2 targetPosition = new Vector2(target.position.x, transform.position.y);
@@ -162,11 +164,11 @@ public class enemyBehaviour : MonoBehaviour
 
         if (distanceToLeft < distanceToRight)
         {
-            target = leftLimit;
+            target = rightLimit;
         }
         else
         {
-            target = rightLimit;
+            target = leftLimit;
         }
 
         Flip();
