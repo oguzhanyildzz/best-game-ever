@@ -28,6 +28,10 @@ public class enemyBehaviour : MonoBehaviour
     private bool cooling;
     private float intTimer;
 
+    public Transform HitBox;
+    public LayerMask playerLayer;
+    public int attackDamage = 20;
+
 
     private void Awake()
     {
