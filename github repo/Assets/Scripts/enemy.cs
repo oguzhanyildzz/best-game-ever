@@ -22,7 +22,6 @@ public class enemy : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        myEnemyAnimator.SetBool("isHurt", true);
 
         if (currentHealth <= 0)
         {
