@@ -6,13 +6,16 @@ using UnityEngine.InputSystem;
 
 public class playerMovement : MonoBehaviour
 {
-    [SerializeField] private AudioSource attackEffect;
-    [SerializeField] private AudioSource cutEffect;
     [SerializeField] float runSpeed = 10f;
     [SerializeField] float jumpSpeed = 10f;
+    [SerializeField] GameObject healthbarÝmg;
+    [SerializeField] GameObject siyahDuvar;
+    [SerializeField] GameObject gameOverText;
+    [SerializeField] GameObject enemyDestroy;
     float runSpeedCopy;
 
-    
+    public int maxHealth = 100;
+    public int currentHealth;
 
     Vector2 moveInput;//karakterin hareketi hakkýnda alýk bilgi
     Rigidbody2D rb2d;
@@ -26,11 +29,19 @@ public class playerMovement : MonoBehaviour
 
     private bool attacked;
 
+
+    //private enemyBehaviour enemyParent;
+
     public Transform attackPoint;
     public int attackDamage = 20;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
 
+    public HealthBar healthBar;
+    //private void Awake()
+    //{
+    //    enemyParent = GetComponentInParent<enemyBehaviour>();
+    //}
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +49,11 @@ public class playerMovement : MonoBehaviour
         myAnimator = GetComponent<Animator>();
         myCapsuleCollider = GetComponent<CapsuleCollider2D>();
         runSpeedCopy = runSpeed;
-        
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
+        siyahDuvar.SetActive(false);
+        gameOverText.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -62,7 +77,6 @@ public class playerMovement : MonoBehaviour
 
     void OnFire(InputValue value)//saldýr
     {
-        attackEffect.Play();
         if (attacked == false)
         {
             Attack();
@@ -78,12 +92,39 @@ public class playerMovement : MonoBehaviour
         foreach (Collider2D enemy in hitEnemies)
         {
             enemy.GetComponent<enemyBehaviour>().TakeDamage(attackDamage);
-           cutEffect.Play();
         }
 
         attacked = true;
         runSpeed = 0;
         StartCoroutine(changeAttackedState());
+    }
+
+    public void TakeDamageCharacter(int damage)
+    {
+        currentHealth -= damage;
+
+        myAnimator.SetTrigger("Hurtt");
+
+        healthBar.SetHealth(currentHealth);
+
+        if (currentHealth <= 0)
+        {
+            Die();
+            //int LayerIgnoreRaycast = LayerMask.NameToLayer("Default");
+            //gameObject.layer = LayerIgnoreRaycast;
+
+        }
+    }
+
+    void Die()
+    {
+        myAnimator.SetBool("isDead", true);
+        this.enabled = false;
+        siyahDuvar.SetActive(true);
+        healthbarÝmg.SetActive(false);
+        gameOverText.SetActive(true);
+        enemyDestroy.SetActive(false);
+        //enemyParent.StopAttack();
     }
 
     private void OnDrawGizmosSelected()

@@ -15,13 +15,13 @@ public class enemyBehaviour : MonoBehaviour
     public GameObject hotZone;
     public GameObject triggerArea;
 
-    public int maxHealth = 100;
+    public int maxHealth = 1000;
     int currentHealth;
 
     BoxCollider2D myEnemyBoxCollider;
 
 
-
+    
     private Animator anim;
     private float distance;
     private bool attackMode;
@@ -35,6 +35,7 @@ public class enemyBehaviour : MonoBehaviour
         intTimer = timer;
         anim = GetComponent<Animator>();
         myEnemyBoxCollider = GetComponent<BoxCollider2D>();
+        
     }
 
     private void Start()
@@ -58,6 +59,8 @@ public class enemyBehaviour : MonoBehaviour
         {
             EnemyLogic();
         }
+
+        
     }
 
     public void TakeDamage(int damage)
@@ -125,6 +128,14 @@ public class enemyBehaviour : MonoBehaviour
         timer = intTimer;
         attackMode = true;
 
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(HitBox.position, attackDistance, playerLayer);
+
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            enemy.GetComponent<playerMovement>().TakeDamageCharacter(attackDamage);
+        }
+
+
         anim.SetBool("canWalk", false);
         anim.SetBool("isAttack", true);
     }
@@ -140,7 +151,7 @@ public class enemyBehaviour : MonoBehaviour
         }
     }
 
-    void StopAttack()
+    public void StopAttack()
     {
         cooling = false;
         attackMode=false;
@@ -189,12 +200,4 @@ public class enemyBehaviour : MonoBehaviour
 
         transform.eulerAngles = rotation;
     }
-
-
-
-
-
-
-
-
 }
