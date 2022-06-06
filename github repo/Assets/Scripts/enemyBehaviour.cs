@@ -4,21 +4,27 @@ using UnityEngine;
 
 public class enemyBehaviour : MonoBehaviour
 {
-    public Transform rayCast;
-    public LayerMask raycastMask;
-    public float rayCastLength;
+    
     public float attackDistance;
     public float moveSpeed;
     public float timer;
     public Transform leftLimit;
     public Transform rightLimit;
+    [HideInInspector] public Transform target;
+    [HideInInspector] public bool inRange;
+    public GameObject hotZone;
+    public GameObject triggerArea;
 
-    private RaycastHit2D hit;
-    private Transform target;
+    public int maxHealth = 100;
+    int currentHealth;
+
+    BoxCollider2D myEnemyBoxCollider;
+
+
+
     private Animator anim;
     private float distance;
     private bool attackMode;
-    private bool inRange;
     private bool cooling;
     private float intTimer;
 
@@ -28,6 +34,12 @@ public class enemyBehaviour : MonoBehaviour
         SelectTarget();
         intTimer = timer;
         anim = GetComponent<Animator>();
+        myEnemyBoxCollider = GetComponent<BoxCollider2D>();
+    }
+
+    private void Start()
+    {
+        currentHealth = maxHealth;
     }
 
     private void Update()
@@ -44,35 +56,35 @@ public class enemyBehaviour : MonoBehaviour
 
         if (inRange)
         {
-            hit = Physics2D.Raycast(rayCast.position, transform.right, rayCastLength, raycastMask);
-            RaycastDebugger();
-        }
-
-        //karakter fark edildiðinde
-        if (hit.collider !=null)
-        {
             EnemyLogic();
-        }
-        else if (hit.collider == null)
-        {
-            inRange = false;
-        }
-
-        if (inRange == false)
-        {
-            StopAttack();
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D trig)
+    public void TakeDamage(int damage)
     {
-        if (trig.gameObject.tag == "Player")
+        currentHealth -= damage;
+
+        anim.SetTrigger("Hurt");
+
+        if (currentHealth <= 0)
         {
-            target = trig.transform;
-            inRange = true;
-            Flip();
+            Die();
+            moveSpeed = 0;
         }
-        
+    }
+
+
+    void Die()
+    {
+        anim.SetBool("isDead", true);
+        this.enabled = false;
+        StartCoroutine(DestroyEnemy());
+    }
+
+    public IEnumerator DestroyEnemy()//ard arda saldýrý yapmayý engelleme
+    {
+        yield return new WaitForSeconds(2f);//þu kadar saniye sonra bunlarý yap
+        Destroy(gameObject);
     }
 
     void EnemyLogic()
@@ -134,19 +146,6 @@ public class enemyBehaviour : MonoBehaviour
         anim.SetBool("isAttack", false); 
     }
 
-
-    void RaycastDebugger()
-    {
-        if (distance > attackDistance)
-        {
-            Debug.DrawRay(rayCast.position, transform.right * rayCastLength, Color.red);
-        }
-        else if (attackDistance > distance)
-        {
-            Debug.DrawRay(rayCast.position, transform.right * rayCastLength, Color.green);
-        }
-    }
-
     public void TriggerCooling()
     {
         cooling=true;
@@ -157,7 +156,7 @@ public class enemyBehaviour : MonoBehaviour
         return transform.position.x > leftLimit.position.x && transform.position.x < rightLimit.position.x;
     }
 
-    private void SelectTarget()
+    public void SelectTarget()
     {
         float distanceToLeft = Vector2.Distance(transform.position, leftLimit.position);
         float distanceToRight = Vector2.Distance(transform.position, rightLimit.position);
@@ -175,7 +174,7 @@ public class enemyBehaviour : MonoBehaviour
 
     }
 
-    private void Flip()
+    public void Flip()
     {
         Vector3 rotation = transform.eulerAngles;
         if (transform.position.x > target.position.x)

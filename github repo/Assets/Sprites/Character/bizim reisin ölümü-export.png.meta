@@ -1,7 +1,46 @@
 fileFormatVersion: 2
 guid: 308cf3aeb364e8542b87d9083852c88b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2154446572250593185
+    second: "bizim reisin \xF6l\xFCm\xFC-export_0"
+  - first:
+      213: 2131600571209190232
+    second: "bizim reisin \xF6l\xFCm\xFC-export_1"
+  - first:
+      213: -7473775826397275913
+    second: "bizim reisin \xF6l\xFCm\xFC-export_2"
+  - first:
+      213: -5322679078012361415
+    second: "bizim reisin \xF6l\xFCm\xFC-export_3"
+  - first:
+      213: 6285042093469490016
+    second: "bizim reisin \xF6l\xFCm\xFC-export_4"
+  - first:
+      213: -5967759441209148967
+    second: "bizim reisin \xF6l\xFCm\xFC-export_5"
+  - first:
+      213: -5206147264120625345
+    second: "bizim reisin \xF6l\xFCm\xFC-export_6"
+  - first:
+      213: 5893536882139112644
+    second: "bizim reisin \xF6l\xFCm\xFC-export_7"
+  - first:
+      213: -232124296011370394
+    second: "bizim reisin \xF6l\xFCm\xFC-export_8"
+  - first:
+      213: 3204848387743599826
+    second: "bizim reisin \xF6l\xFCm\xFC-export_9"
+  - first:
+      213: -5469791820855504650
+    second: "bizim reisin \xF6l\xFCm\xFC-export_10"
+  - first:
+      213: -132352519886358411
+    second: "bizim reisin \xF6l\xFCm\xFC-export_11"
+  - first:
+      213: 6016416012762350477
+    second: "bizim reisin \xF6l\xFCm\xFC-export_12"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +71,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +80,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +114,294 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "bizim reisin \xF6l\xFCm\xFC-export_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1120
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7fd822eb126ed10800000000000000
+      internalID: 2154446572250593185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bizim reisin \xF6l\xFCm\xFC-export_1"
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 1120
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b81f10d67f49d10800000000000000
+      internalID: 2131600571209190232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bizim reisin \xF6l\xFCm\xFC-export_2"
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 1120
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f850b0db70d74890800000000000000
+      internalID: -7473775826397275913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bizim reisin \xF6l\xFCm\xFC-export_3"
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 0
+        width: 1120
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9356bad449b0226b0800000000000000
+      internalID: -5322679078012361415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bizim reisin \xF6l\xFCm\xFC-export_4"
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 0
+        width: 1120
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b50a30c74f83750800000000000000
+      internalID: 6285042093469490016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bizim reisin \xF6l\xFCm\xFC-export_5"
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 0
+        width: 1120
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9beb128624e2da0800000000000000
+      internalID: -5967759441209148967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bizim reisin \xF6l\xFCm\xFC-export_6"
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 0
+        width: 1120
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37e7b985ac00c7b0800000000000000
+      internalID: -5206147264120625345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bizim reisin \xF6l\xFCm\xFC-export_7"
+      rect:
+        serializedVersion: 2
+        x: 7840
+        y: 0
+        width: 1120
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4a09aa19c0ac150800000000000000
+      internalID: 5893536882139112644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bizim reisin \xF6l\xFCm\xFC-export_8"
+      rect:
+        serializedVersion: 2
+        x: 8960
+        y: 0
+        width: 1120
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6603180ce2457ccf0800000000000000
+      internalID: -232124296011370394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bizim reisin \xF6l\xFCm\xFC-export_9"
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 0
+        width: 1120
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcc07ee0a8e97c20800000000000000
+      internalID: 3204848387743599826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bizim reisin \xF6l\xFCm\xFC-export_10"
+      rect:
+        serializedVersion: 2
+        x: 11200
+        y: 0
+        width: 1120
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f01292b1556714b0800000000000000
+      internalID: -5469791820855504650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bizim reisin \xF6l\xFCm\xFC-export_11"
+      rect:
+        serializedVersion: 2
+        x: 12320
+        y: 0
+        width: 1120
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578bb0b951ac92ef0800000000000000
+      internalID: -132352519886358411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bizim reisin \xF6l\xFCm\xFC-export_12"
+      rect:
+        serializedVersion: 2
+        x: 13440
+        y: 0
+        width: 1120
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d830cadbc7a9e7350800000000000000
+      internalID: 6016416012762350477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

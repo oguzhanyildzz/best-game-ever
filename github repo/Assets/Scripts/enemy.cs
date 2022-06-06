@@ -4,36 +4,39 @@ using UnityEngine;
 
 public class enemy : MonoBehaviour
 {
-    public int maxHealth = 100;
-    int currentHealth;
+    //public int maxHealth = 100;
+    //int currentHealth;
 
-    Animator myEnemyAnimator;
-    BoxCollider2D myEnemyBoxCollider;
+    //Animator myEnemyAnimator;
+    //BoxCollider2D myEnemyBoxCollider;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        currentHealth = maxHealth;
+    //void Start()
+    //{
+    //    currentHealth = maxHealth;
 
-        myEnemyAnimator = GetComponent<Animator>();
-        myEnemyBoxCollider = GetComponent<BoxCollider2D>();
-    }
+    //    myEnemyAnimator = GetComponent<Animator>();
+    //    myEnemyBoxCollider = GetComponent<BoxCollider2D>();
+    //}
 
-    public void TakeDamage(int damage)
-    {
-        currentHealth -= damage;
+    //public void TakeDamage(int damage)
+    //{
+    //    currentHealth -= damage;
 
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
-    }
+    //    myEnemyAnimator.SetTrigger("Hurt");
+
+    //    if (currentHealth <= 0)
+    //    {
+    //        Die();
+    //    }
+    //}
 
 
-    void Die()
-    {
-        Destroy(gameObject);
-    }
+    //void Die()
+    //{
+    //    myEnemyAnimator.SetBool("isDead", true);
+    //    this.enabled = false;
+    //}
 
 
 
