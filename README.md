@@ -155,6 +155,9 @@ başlandı. Oyun başlangıcı belirlendi ve gidişatı oluşturuldu.
 ![kanbanpano](https://user-images.githubusercontent.com/53306980/172072808-4644ff15-ff63-4606-ac98-068f2ffc009c.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
+![urundurum1](https://user-images.githubusercontent.com/53306980/172234083-aa21cf0b-547a-47ab-a3d8-dcd1e0f49c62.png)
+![urundurum2](https://user-images.githubusercontent.com/53306980/172234090-28c72e92-aaa5-4867-859b-adae0abd7d18.png)
+
 
 - **Sprint Review**: Bu sprint sonunda istediğimiz her şeyi yapamamış olsak da elimizdeki kısıtlı zamanda bir oyun ortaya koyduk.
 
