@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class enemyBehaviour : MonoBehaviour
 {
-    
+    [SerializeField] private AudioSource deathEffect;
     public float attackDistance;
     public float moveSpeed;
     public float timer;
@@ -78,6 +78,7 @@ public class enemyBehaviour : MonoBehaviour
     {
         anim.SetBool("isDead", true);
         this.enabled = false;
+        deathEffect.Play();
         StartCoroutine(DestroyEnemy());
     }
 

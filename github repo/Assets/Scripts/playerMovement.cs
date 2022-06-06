@@ -6,9 +6,13 @@ using UnityEngine.InputSystem;
 
 public class playerMovement : MonoBehaviour
 {
+    [SerializeField] private AudioSource attackEffect;
+    [SerializeField] private AudioSource cutEffect;
     [SerializeField] float runSpeed = 10f;
     [SerializeField] float jumpSpeed = 10f;
     float runSpeedCopy;
+
+    
 
     Vector2 moveInput;//karakterin hareketi hakkýnda alýk bilgi
     Rigidbody2D rb2d;
@@ -58,6 +62,7 @@ public class playerMovement : MonoBehaviour
 
     void OnFire(InputValue value)//saldýr
     {
+        attackEffect.Play();
         if (attacked == false)
         {
             Attack();
@@ -73,6 +78,7 @@ public class playerMovement : MonoBehaviour
         foreach (Collider2D enemy in hitEnemies)
         {
             enemy.GetComponent<enemyBehaviour>().TakeDamage(attackDamage);
+           cutEffect.Play();
         }
 
         attacked = true;
