@@ -10,6 +10,13 @@ public class ChangeImage : MonoBehaviour
     public GameObject[] texts;
     int index;
 
+    public GameObject NextButton;
+    public GameObject StartButton;
+
+    private void Start()
+    {
+        StartButton.SetActive(false);
+    }
     private void Update()
     {
         if (index >= 4)
@@ -22,6 +29,12 @@ public class ChangeImage : MonoBehaviour
         {
             background[0].gameObject.SetActive(true);
             texts[0].gameObject.SetActive(true);
+        }
+
+        if (index == 4)
+        {
+            StartButton.SetActive(true);
+            NextButton.SetActive(false);
         }
     }
 
