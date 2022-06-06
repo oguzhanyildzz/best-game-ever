@@ -14,6 +14,11 @@ public class playerMovement : MonoBehaviour
     Animator myAnimator;
     CapsuleCollider2D myCapsuleCollider;
 
+    public Transform groundPos;
+    private bool isGrounded;
+    public float checkRadius;
+    public LayerMask whatIsGround;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +32,29 @@ public class playerMovement : MonoBehaviour
     {
         Run();
         FlipSprite();//karakter hareket ederken bakýþ yönünü ayarlama
+
+        isGrounded = Physics2D.OverlapCircle(groundPos.position, checkRadius, whatIsGround);
+
+        if (isGrounded == true)
+        {
+            myAnimator.SetBool("isJumping", false);
+
+        }
+        else
+        {
+            myAnimator.SetBool("isJumping", true);
+            myAnimator.SetBool("isSpecial", false);
+        }
+    }
+
+    void OnFire(InputValue value)//saldýr
+    {
+        Attack();
+    }
+
+    void Attack()
+    {
+        myAnimator.SetTrigger("Attack");
     }
 
     void OnMove(InputValue value)
@@ -37,7 +65,7 @@ public class playerMovement : MonoBehaviour
     void OnJump(InputValue value)
     {
         if (!myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))//eðer yerde deðilsem bunu yapma 
-        {
+        {       
             return;
         }
 
@@ -46,17 +74,14 @@ public class playerMovement : MonoBehaviour
         if (value.isPressed)
         {
             rb2d.velocity += new Vector2(0f, jumpSpeed);
-            
+        }
+    }
 
-
-            //if (myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))//eðer yerde deðilsem bunu yapma 
-            //{
-            //    myAnimator.SetBool("isJumping", true);
-            //}
-            //else
-            //{
-            //    myAnimator.SetBool("isJumping", false);
-            //}
+    void OnSpecialAttack1(InputValue value)
+    {
+        if (value.isPressed)
+        {
+            myAnimator.SetBool("isSpecial", true);
         }
     }
 

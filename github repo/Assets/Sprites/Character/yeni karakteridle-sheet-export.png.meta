@@ -1,7 +1,61 @@
 fileFormatVersion: 2
 guid: 059ff5616c009444297c485482f17551
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3981886990791893746
+    second: yeni karakteridle-sheet-export_0
+  - first:
+      213: 746202709250768587
+    second: yeni karakteridle-sheet-export_1
+  - first:
+      213: 6640254618896547702
+    second: yeni karakteridle-sheet-export_2
+  - first:
+      213: 1724029379017703269
+    second: yeni karakteridle-sheet-export_3
+  - first:
+      213: -5682263124400278643
+    second: yeni karakteridle-sheet-export_4
+  - first:
+      213: -7507910698196003018
+    second: yeni karakteridle-sheet-export_5
+  - first:
+      213: 6770899983274328376
+    second: yeni karakteridle-sheet-export_6
+  - first:
+      213: 4569906373042728007
+    second: yeni karakteridle-sheet-export_7
+  - first:
+      213: -6157495252755627440
+    second: yeni karakteridle-sheet-export_8
+  - first:
+      213: 6707843223075807396
+    second: yeni karakteridle-sheet-export_9
+  - first:
+      213: -976484095437067049
+    second: yeni karakteridle-sheet-export_10
+  - first:
+      213: -6499328826726262277
+    second: yeni karakteridle-sheet-export_11
+  - first:
+      213: -5271856006094915241
+    second: yeni karakteridle-sheet-export_12
+  - first:
+      213: -6167841007641479215
+    second: yeni karakteridle-sheet-export_13
+  - first:
+      213: -5739235649617195232
+    second: yeni karakteridle-sheet-export_14
+  - first:
+      213: 6561377703690869637
+    second: yeni karakteridle-sheet-export_15
+  - first:
+      213: -7261085794931207720
+    second: yeni karakteridle-sheet-export_16
+  - first:
+      213: 4138522686373252547
+    second: yeni karakteridle-sheet-export_17
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +86,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +95,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +129,399 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: yeni karakteridle-sheet-export_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 208
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f266e50f11824730800000000000000
+      internalID: 3981886990791893746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeni karakteridle-sheet-export_1
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0
+        width: 208
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce7357196b0b5a00800000000000000
+      internalID: 746202709250768587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeni karakteridle-sheet-export_2
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 0
+        width: 206
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fb971f46ce62c50800000000000000
+      internalID: 6640254618896547702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeni karakteridle-sheet-export_3
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 0
+        width: 208
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fffaef59bfce710800000000000000
+      internalID: 1724029379017703269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeni karakteridle-sheet-export_4
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 0
+        width: 208
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83f1d55bcb8421b0800000000000000
+      internalID: -5682263124400278643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeni karakteridle-sheet-export_5
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 0
+        width: 208
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6371ca4affa8ec790800000000000000
+      internalID: -7507910698196003018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeni karakteridle-sheet-export_6
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 0
+        width: 205
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831c3c839a117fd50800000000000000
+      internalID: 6770899983274328376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeni karakteridle-sheet-export_7
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 0
+        width: 205
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c610642a19b6f30800000000000000
+      internalID: 4569906373042728007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeni karakteridle-sheet-export_8
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 0
+        width: 208
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052c85101be2c8aa0800000000000000
+      internalID: -6157495252755627440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeni karakteridle-sheet-export_9
+      rect:
+        serializedVersion: 2
+        x: 2946
+        y: 0
+        width: 208
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0e1782fdb071d50800000000000000
+      internalID: 6707843223075807396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeni karakteridle-sheet-export_10
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 0
+        width: 208
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dca7aa83e4d272f0800000000000000
+      internalID: -976484095437067049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeni karakteridle-sheet-export_11
+      rect:
+        serializedVersion: 2
+        x: 3587
+        y: 0
+        width: 206
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf95684fddebdc5a0800000000000000
+      internalID: -6499328826726262277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeni karakteridle-sheet-export_12
+      rect:
+        serializedVersion: 2
+        x: 3905
+        y: 0
+        width: 208
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759f3b9d4ea96d6b0800000000000000
+      internalID: -5271856006094915241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeni karakteridle-sheet-export_13
+      rect:
+        serializedVersion: 2
+        x: 4226
+        y: 0
+        width: 208
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7317c384d676aa0800000000000000
+      internalID: -6167841007641479215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeni karakteridle-sheet-export_14
+      rect:
+        serializedVersion: 2
+        x: 4546
+        y: 0
+        width: 208
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f0f4e95932a50b0800000000000000
+      internalID: -5739235649617195232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeni karakteridle-sheet-export_15
+      rect:
+        serializedVersion: 2
+        x: 4867
+        y: 0
+        width: 205
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b99a10242be0b50800000000000000
+      internalID: 6561377703690869637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeni karakteridle-sheet-export_16
+      rect:
+        serializedVersion: 2
+        x: 5188
+        y: 0
+        width: 205
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d19d7db0f07b3b90800000000000000
+      internalID: -7261085794931207720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yeni karakteridle-sheet-export_17
+      rect:
+        serializedVersion: 2
+        x: 5506
+        y: 0
+        width: 208
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd4c28d47cfe6930800000000000000
+      internalID: 4138522686373252547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

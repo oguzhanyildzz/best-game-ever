@@ -1,7 +1,28 @@
 fileFormatVersion: 2
 guid: daf61d9505d0f4f45aff914f97d683e2
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4768534015502072446
+    second: Basicattack -Sheet_0
+  - first:
+      213: 2941758619074944642
+    second: Basicattack -Sheet_1
+  - first:
+      213: -6392319645954155816
+    second: Basicattack -Sheet_2
+  - first:
+      213: -2102957094887345438
+    second: Basicattack -Sheet_3
+  - first:
+      213: -8451876565078707026
+    second: Basicattack -Sheet_4
+  - first:
+      213: 1184156488399144770
+    second: Basicattack -Sheet_5
+  - first:
+      213: 1969325097278841405
+    second: Basicattack -Sheet_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +53,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +62,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +96,168 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Basicattack -Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 940
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285c1a2e393c2ddb0800000000000000
+      internalID: -4768534015502072446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basicattack -Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 0
+        width: 940
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ed7e0c0e933d820800000000000000
+      internalID: 2941758619074944642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basicattack -Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 0
+        width: 940
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dad624662be947a0800000000000000
+      internalID: -6392319645954155816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basicattack -Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 0
+        width: 940
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e23a550aabc0d2e0800000000000000
+      internalID: -2102957094887345438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basicattack -Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3760
+        y: 0
+        width: 940
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4f8054b07e4ba80800000000000000
+      internalID: -8451876565078707026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basicattack -Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 4700
+        y: 0
+        width: 940
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24741816d08fe6010800000000000000
+      internalID: 1184156488399144770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basicattack -Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 5640
+        y: 0
+        width: 940
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d322196fdb2745b10800000000000000
+      internalID: 1969325097278841405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
