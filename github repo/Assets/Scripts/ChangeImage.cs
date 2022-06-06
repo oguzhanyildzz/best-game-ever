@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class ChangeImage : MonoBehaviour
 {
     public GameObject[] background;
+    public GameObject[] texts;
     int index;
 
     private void Update()
@@ -20,6 +21,7 @@ public class ChangeImage : MonoBehaviour
         if(index == 0)
         {
             background[0].gameObject.SetActive(true);
+            texts[0].gameObject.SetActive(true);
         }
     }
 
@@ -31,7 +33,9 @@ public class ChangeImage : MonoBehaviour
         {
 
             background[i].gameObject.SetActive(false);
+            texts[i].gameObject.SetActive(false);
             background[index].gameObject.SetActive(true);
+            texts[index].gameObject.SetActive(true);
 
         }
 
